@@ -1,0 +1,180 @@
+
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+		}
+		body{
+			display: flex;
+			flex-direction: row;
+		}
+		main{
+			width: 80%;
+			min-height: 100vh;
+			background-color: rgb(175, 72, 72);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		
+		.main{
+			width: 865px;
+			height: 865px;
+			background-color: grey;
+		}
+
+		.l{
+			width: 30px;
+			height: 30px;
+		}
+		.top{
+			display: flex;
+			flex-direction: row;
+			height: 30px;
+		}
+		.top p{
+			width: 100px;
+			height: 30px;
+			transform: rotate(180deg);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-weight: 700;
+		}
+		.mid{
+			height: 805px;
+			display: flex;
+			flex-direction: row;
+
+		}
+		.ll{
+			display: flex;
+			flex-direction: column;
+			width: 30px;
+		}
+		.ll p{
+			height: 100px;
+			width: 30px;
+			transform: rotate(0deg);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-weight: 700;
+		}
+		.board{
+			width: 805px;
+			display: flex;
+			flex-wrap: wrap;
+			border: 1px solid black;
+		}
+		.board > div{
+			display: flex;
+			flex-direction: row;
+		}
+		[title="grey"]{
+			height: 100px;
+			width: 100px;
+			background-color: grey;
+		}
+		[title="white"]{
+			height: 100px;
+			width: 100px;
+			background-color: white;
+		}
+		.rl{
+			display: flex;
+			flex-direction: column;
+			width: 30px;
+		}
+		.rl p{
+			height: 100px;
+			width: 30px;
+			transform: rotate(180deg);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-weight: 700;
+		}
+		.bottom{
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			height: 30px;
+		}
+		.bottom p{
+			width: 100px;
+			height: 30px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+            font-weight: 700;
+        }
+        .button{
+			width: 25%;
+			background-color: rgb(175, 72, 72);
+			display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }	
+        .style {
+
+            width: 200px;
+			margin-bottom: 50px;
+			letter-spacing: 10px;
+			font-size: 20pt;
+			color:  gray;
+            font-weight: 700;
+            background-color: white;
+
+		   }
+
+
+		   .progress9 {
+			width: 25%;
+			background-color: grey;
+			display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;  
+		   }
+		   .time p{
+			   font-size:50px;
+			   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		   }
+		   .progress9 >div{
+			   background-color:tomato;
+			   border: 10px solid black;
+
+		   }
+		   .Player1{
+			transform:rotate(180deg);  
+			width: 200px;
+			margin-bottom: 50px;
+			letter-spacing: 5px;
+			font-size: 20pt;
+			color:  gray;
+            font-weight: 700;
+            background-color: white; 
+		   }
+		   .Player2{
+			width: 200px;
+			margin-bottom: 50px;
+			letter-spacing: 5px;
+			font-size: 20pt;
+			color:  gray;
+            font-weight: 700;
+            background-color: white;   
+		   }
+		  [id|=timer]{
+			transform:rotate(180deg);
+		  }
+		  #Rotate3{
+			letter-spacing: 2px;
+			font-size: 10pt;
+
+		  }

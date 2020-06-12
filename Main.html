@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<link rel="stylesheet" type="text/css" href="chess.css" >
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<body>
+    <main>
+		<div class="main" id="main">
+			<div class="top" id="top">
+				<div class="l"></div>
+				<p class="letter">A</p>
+				<p class="letter">B</p>
+				<p class="letter">C</p>
+				<p class="letter">D</p>
+				<p class="letter">E</p>
+				<p class="letter">F</p>
+				<p class="letter">G</p>
+				<p class="letter">H</p>
+				<div class="l"></div>
+			</div>
+			<div class="mid">
+				<div class="ll" id="left">
+					<p class="number">8</p>
+					<p class="number">7</p>
+					<p class="number">6</p>
+					<p class="number">5</p>
+					<p class="number">4</p>
+					<p class="number">3</p>
+					<p class="number">2</p>
+					<p class="number">1</p>
+				</div>
+				<div class="board">
+					<div>
+                        <div class="white" title="white"></div>
+						<div class="grey"  title="grey"></div>
+            			<div class="white" title="white"></div>
+						<div class="grey"  title="grey"></div>
+						<div class="white" title="white"></div>
+						<div class="grey"  title="grey"></div>
+						<div class="white" title="white"></div>
+						<div class="grey"  title="grey"></div>
+					</div>
+					<div>
+						<div class="grey" title="grey"></div>
+						<div class="white"title="white"></div>
+						<div class="grey" title="grey"></div>
+						<div class="white"title="white"></div>
+						<div class="grey" title="grey"></div>
+						<div class="white"title="white"></div>
+						<div class="grey" title="grey"></div>
+						<div class="white"title="white"></div>
+					</div>
+					<div>
+                        <div class="white"title="white"></div>
+						<div class="grey" title="grey"></div>
+						<div class="white"title="white"></div>
+						<div class="grey" title="grey"></div>
+						<div class="white"title="white"></div>
+						<div class="grey" title="grey"></div>
+						<div class="white"title="white"></div>
+						<div class="grey" title="grey"></div>
+					</div>
+					<div>
+						<div class="grey" title="grey"></div>
+						<div class="white"title="white"></div>
+						<div class="grey" title="grey"></div>
+						<div class="white"title="white"></div>
+						<div class="grey" title="grey"></div>
+						<div class="white"title="white"></div>
+						<div class="grey" title="grey"></div>
+						<div class="white"title="white"></div>
+					</div>
+					<div>
+						<div class="white"title="white"></div>
+						<div class="grey" title="grey"></div>
+						<div class="white"title="white"></div>
+						<div class="grey" title="grey"></div>
+						<div class="white"title="white"></div>
+						<div class="grey" title="grey"></div>
+						<div class="white"title="white"></div>
+						<div class="grey" title="grey"></div>
+					</div>
+					<div>
+						<div class="grey" title="grey"></div>
+						<div class="white"title="white"></div>
+						<div class="grey" title="grey"></div>
+						<div class="white"title="white"></div>
+						<div class="grey" title="grey"></div>
+						<div class="white"title="white"></div>
+						<div class="grey" title="grey"></div>
+						<div class="white"title="white"></div>
+					</div>
+					<div>
+						<div class="white"title="white"></div>
+						<div class="grey" title="grey"></div>
+						<div class="white"title="white"></div>
+						<div class="grey" title="grey"></div>
+						<div class="white"title="white"></div>
+						<div class="grey" title="grey"></div>
+						<div class="white"title="white"></div>
+						<div class="grey" title="grey"></div>
+					</div>
+					<div>
+						<div class="grey" title="grey"></div>
+						<div class="white"title="white"></div>
+						<div class="grey" title="grey"></div>
+						<div class="white"title="white"></div>
+						<div class="grey" title="grey"></div>
+						<div class="white"title="white"></div>
+						<div class="grey" title="grey"></div>
+						<div class="white"title="white"></div>
+					</div>
+				</div>
+				<div class="rl" id="right">
+					<p class="number">8</p>
+					<p class="number">7</p>
+					<p class="number">6</p>
+					<p class="number">5</p>
+					<p class="number">4</p>
+					<p class="number">3</p>
+					<p class="number">2</p>
+					<p class="number">1</p>
+				</div>
+			</div>
+			<div class="bottom" id="bottom">
+				<div class="l"></div>
+				<p class="letter">A</p>
+				<p class="letter">B</p>
+				<p class="letter">C</p>
+				<p class="letter">D</p>
+				<p class="letter">E</p>
+				<p class="letter">F</p>
+				<p class="letter">G</p>
+				<p class="letter">H</p>
+				<div class="l"></div>
+			</div>
+		</div>		
+    </main>
+    <div class="button">
+        <input type="button" class="style w3-btn w3-white s1" onclick="style1()" type="button" value="Style 1">
+        <button class="style w3-btn w3-white" onclick="style2()" type="submit">Style 2</button>
+        <button class="style w3-btn w3-white" onclick="style3()" type="submit">Style 3</button>
+        <button class="style w3-btn w3-white" onclick="style4()" type="submit">Style 4</button>
+        <button class="style w3-btn w3-white" onclick="style5()" type="submit">Style 5</button>
+        <button class="style w3-btn w3-white" onclick="rotate()" type="submit">Rotate</button>
+	</div>
+
+	<div class="progress9">
+<button id="Player1"class="Player1 w3-btn w3-white " onclick=countdown() type="button" >Player 1</button>
+<div class="time"><p id="timer">5:00</p></div>
+<div class="time"><p id="timer2">5:00</p></div>
+<button id="Player2"class="Player2 w3-btn w3-white " onclick=countdown2() type="button" >Player 2</button>
+<button  class="style w3-btn w3-white" onclick="rotate2()" type="submit">Rotate</button>
+<button id="Rotate3" class="style w3-btn w3-white" onclick="rotate3()" type="submit">Rotate time </button>
+	</div>
+    <script src="chess.js"></script>
+
+</body>
+</html>
